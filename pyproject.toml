@@ -1,0 +1,12 @@
+[project]
+name = "boardmates-backend"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.115.12",
+    "psycopg2>=2.9.10",
+    "pydantic>=2.11.5",
+    "sqlmodel>=0.0.24",
+    "uvicorn>=0.34.2",
+]
